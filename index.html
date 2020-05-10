@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quartos do Airbnb</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand" href="#"><img id="logo" src="imagens/airbnb.jpg"></a>
+                <div class="filter">
+                    <form class="form-group  my-2 my-lg-0">
+                        <label for="exampleInputEmail1">Localização</label>
+                        <input class="form-control mr-sm-2 search" type="search" placeholder="Para onde você vai?"
+                            aria-label="Search">
+                    </form>
+                </div>
+                <div class="filter">
+                    <form class="form-group  my-2 my-lg-0">
+                        <label for="exampleInputEmail1">Check-in/Checkout</label>
+                        <input class="form-control mr-sm-2 search" type="search" placeholder="Insira as datas"
+                            aria-label="Search">
+                    </form>
+                </div>
+                <div class="filter">
+                    <form class="form-group my-2 my-lg-0">
+                        <label for="exampleInputEmail1">Hóspedes</label>
+                        <input class="form-control form-control-sm search" type="search"
+                            placeholder="Insira o número de hóspedes" aria-label="Search">
+                    </form>
+                </div>
+                <button class="btn btn-primary btn-lg" id="buttonSubmit" type="submit">Buscar</button>
+
+            </div>
+        </nav>
+
+        <div class="row" id="cartoes">
+          
+        </div>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
